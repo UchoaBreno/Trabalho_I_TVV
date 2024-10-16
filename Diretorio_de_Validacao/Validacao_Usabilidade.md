@@ -45,7 +45,6 @@ A **avaliação heurística** é uma técnica de inspeção de usabilidade usada
   
 ---
 
-Aqui está a tabela revisada com base nas informações que você forneceu:
 
 ## Avaliação Heurística - Carlos Uchôa
 | **Heurística**                          | **Descrição da Heurística**                                                                                     | **Problema Identificado**                                                                                | **Local do Problema** | **Gravidade (1-4)** | **Solução Sugerida**                                                                                     |
@@ -64,10 +63,10 @@ Aqui está a tabela revisada com base nas informações que você forneceu:
 
 ## Avaliação Heurística - Bruna Miranda
 
+
 | **Heurística**                           | **Descrição da Heurística**                                                                                  | **Problema Identificado**                                                                                         | **Local do Problema** | **Gravidade (1-4)** | **Solução Sugerida**                                                                                                  |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------|------------------------------------------------------------------------------------------------------------------------|
-| 1. Visibilidade do status do sistema      | O sistema deve sempre manter o usuário informado sobre o que está acontecendo com feedback apropriado e no tempo. |O usuário não sabe onde está, não tem uma “marcação” dizendo em que parte do site ele está
-                     | Página principal       | 3                  | Incluir feedback visual claro como realce de itens clicáveis e breadcrumbs para indicar a localização na página.         |
+| 1. Visibilidade do status do sistema      | O sistema deve sempre manter o usuário informado sobre o que está acontecendo com feedback apropriado e no tempo. | O sistema não oferece feedback claro sobre itens clicáveis ou a localização atual do usuário.                     | Página principal       | 3                  | Incluir feedback visual claro como realce de itens clicáveis e breadcrumbs para indicar a localização na página.         |
 | 2. Compatibilidade entre o sistema e o mundo real | O sistema deve utilizar uma linguagem clara e familiar ao usuário com símbolos e terminologia reconhecíveis.     | Ícones e rótulos não estão claros ou usam termos técnicos que o usuário comum não compreende.                     | Todas as telas         | 2                  | Substituir termos técnicos por expressões mais amigáveis e revisar os ícones para garantir sua familiaridade.            |
 | 3. Controle e liberdade do usuário        | Usuários devem poder desfazer ações facilmente e navegar entre telas de maneira intuitiva.                     | Não há opção de cancelar ações em progresso ou voltar para uma etapa anterior.                                     | Formulários e fluxos   | 4                  | Adicionar botões de "Cancelar" e "Voltar" nos fluxos para maior controle do usuário.                                    |
 | 4. Consistência e padrões                 | O sistema deve manter padrões consistentes de design, cores e linguagem em todas as telas.                     | A estrutura dos menus e o design variam entre as telas, causando confusão para o usuário.                          | Navegação geral        | 3                  | Implementar templates consistentes de menus e manter uma paleta de cores padrão em todas as telas.                      |
